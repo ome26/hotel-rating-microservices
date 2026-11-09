@@ -1,0 +1,9 @@
+### Create User
+POST http://localhost:8081/users
+Content-Type: application/json
+
+{
+  "name": "Om",
+  "email": "om@gmail.com",
+  "about": "Java Backend Developer"
+}
